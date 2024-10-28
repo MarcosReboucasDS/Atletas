@@ -1,0 +1,21 @@
+from esporte import *
+
+if __name__ == "__main__":
+    c1 = Corredor('Érika', 31, 51.98)
+    print(c1)
+    print(c1.aquecer())
+    print(c1.correr())
+    n1 = Nadador('Sophia', 25, 60.90)
+    print("\n")
+    print(n1)
+    print(n1.aquecer())
+    print(n1.nadar())
+    ci1 = Ciclista('Ronaldo', 62, 109.87)
+    print("\n")
+    print(ci1)
+    print(ci1.aquecer())
+    print(ci1.pedalar())
+    tri1 = Triatleta('Daniel', 20, 87.1)
+    print("\n")
+    print(tri1.aquecer())
+    print(tri1.realizarMaratona())
